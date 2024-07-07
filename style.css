@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+p {
+    width: 70vh;
+    text-align: center;
+    color: lightslategray;
+    margin-bottom: 1rem;
+}
+
+.input-container {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 100%;
+}
+
+input, button {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid goldenrod;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: goldenrod;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.divs-container {
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 4px;
+    padding: 1rem;
+    overflow: auto;
+}
+
+.grid-row {
+    width: 100%;
+    display: flex;
+}
+
+.grid-item {
+    border: 1px solid black;
+    padding: 0.5rem;
+    cursor: pointer;
+}
